@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <div class="music-player">
+        <nav>
+
+          <div class="circle">
+            <img src="music icons/right.png" alt="" class="right">
+          </div>
+          <div class="circleleft">
+            <img src="music icons/left.png" alt="" class="left">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+        </nav>
+        <img id="cover" src="cover4.jpg" alt="" class="songimg">
+        <h1 id="artist">Adekunle Gold</h1>
+        <p id="title">Sinner</p>
+        
+
+        <!-- <audio controls>
+          <source src="./song/songs3.mp3" type="">
+        </audio> -->
+        <audio src="./song/songs3.mp3" id="audio"></audio>
+        <input type="range" value="0" id="progress">
+
+        <div class="controls" id="song">
+          <button class="backward">
+          <img id="prev" src="music icons/back__1_-removebg-preview.png" alt="" class="backward">
+          </button>
+        
+        <button class="play">
+          <img id="play" src="music icons/play.png" alt="" class="play">
+        </button>
+        <button class="forward">
+          <img id="next" src="./music icons/forward1.png" alt="" class="forward">
+        </button>
+
+      </div>
+        
+      </div>
+    </div>
+    <script src="music.js"></script>
+    
+</body>
+</html>
